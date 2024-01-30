@@ -6,11 +6,11 @@ Host a web-based leaderboard for Chai competition using Gradio. The structure is
 ```commandline
 pip install -r requirements.txt
 ```
-In one terminal, execute:
+In one terminal, execute this command to fetch and save leaderboard data:
 ```commandline
 python fetch_data.py
 ```
-In another terminal, execute:
-```commandline
-python app.py
+In another terminal, execute this bash file to tunnel the app:
+```
+./auto_ssh.sh
 ```
